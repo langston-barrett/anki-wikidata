@@ -1,0 +1,6 @@
+black==22.10.0
+isort>=5,<6
+mypy==0.991
+python-lsp-server
+types-requests
+types-PyYAML>6,<7

@@ -1,0 +1,5 @@
+PyYAML>=6,<7
+genanki==0.13
+pydantic>=1.10,<2
+requests>=2
+typer==0.7

@@ -4,23 +4,39 @@ entities:
 - id: Q542045
   cards:
   - governor
+  - political-party
 
 # Hubert Humphrey
 - id: Q209989
   cards:
+  - political-party
   - senator
 
 # JFK
 - id: Q9696
   cards:
+  - political-party
   - senator
 
-# Lyndon B. Johnson
+# FDR
+- id: Q8007
+  cards:
+  - political-party
+  - governor
+
+# LBJ
 - id: Q9640
   cards:
+  - political-party
   - senator
 
 # Richard Russell
 - id: Q718415
   cards:
+  - political-party
   - senator
+
+# Sam Rayburn
+- id: Q1378052
+  cards:
+  - political-party

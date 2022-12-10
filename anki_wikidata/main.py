@@ -11,14 +11,17 @@ import yaml
 from pydantic import ValidationError
 
 from anki_wikidata.conf import Config, Entity
-from anki_wikidata.queries import birth_country
+from anki_wikidata.gen import write_deck
+from anki_wikidata.queries import birth_country, governor, senator
 from anki_wikidata.queries.util import get_results
 
 app = typer.Typer()
 
 
 QUERIES = {
-    "birth_country": birth_country.query,
+    "birth-country": birth_country.query,
+    "governor": governor.query,
+    "senator": senator.query,
 }
 
 
@@ -64,11 +67,21 @@ def add(config_file: Path, entity: str, card: List[str] = []) -> None:
 
 
 @app.command()
-def build(config_file: Path) -> None:
+def build(
+    config_file: Path, output: Path = Path("out.apkg"), name: str = "default"
+) -> None:
     config = load_config(config_file)
+    cards = []
     for entity in config.entities:
         for query_name in entity.cards:
-            print(QUERIES[query_name]("wd:" + entity.id))
+            if query_name not in QUERIES:
+                print("Invalid card name:", query_name)
+                exit(1)
+            cs = QUERIES[query_name]("wd:" + entity.id)
+            for card in cs:
+                print(card)
+            cards.extend(cs)
+    write_deck(output, name, cards)
 
 
 @app.command()

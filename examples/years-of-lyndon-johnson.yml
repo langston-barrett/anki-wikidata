@@ -1,0 +1,26 @@
+entities:
+
+# Coke R. Stevenson
+- id: Q542045
+  cards:
+  - governor
+
+# Hubert Humphrey
+- id: Q209989
+  cards:
+  - senator
+
+# JFK
+- id: Q9696
+  cards:
+  - senator
+
+# Lyndon B. Johnson
+- id: Q9640
+  cards:
+  - senator
+
+# Richard Russell
+- id: Q718415
+  cards:
+  - senator

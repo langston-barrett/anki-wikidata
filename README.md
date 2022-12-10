@@ -27,7 +27,7 @@ entity (`Q5593`):
 anki-wikidata list Q5593
 ```
 ```
-birth_country:
+birth-country:
 - In what country was Pablo Picasso born?
 - Spain
 ...
@@ -36,7 +36,7 @@ birth_country:
 Create a deck file which includes this identifier:
 
 ```sh
-anki-wikidata add --card birth_country deck.yml Q5593
+anki-wikidata add --card birth-country deck.yml Q5593
 ```
 
 This will create a file `deck.yml` like so:
@@ -45,7 +45,7 @@ This will create a file `deck.yml` like so:
 entities:
 - id: Q5593
   cards:
-  - birth_country
+  - birth-country
 ```
 
 You can then pass this file to `anki-wikidata build`:

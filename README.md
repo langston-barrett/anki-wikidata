@@ -77,6 +77,13 @@ pip install -r requirements.txt
 env PYTHONPATH=$PYTHONPATH:$PWD python3 anki_wikidata/main.py --help
 ```
 
+## Examples
+
+- [./examples/nyc-boroughs.yml](./examples/nyc-boroughs.yml):
+  A deck for recalling which borough each NYC neighborhood is in.
+- [./examples/years-of-lyndon-johnson.yml](./examples/years-of-lyndon-johnson.yml):
+  A deck for recalling *The Years of Lyndon Johnson* by Robert Caro.
+
 ## Effective use of Anki with anki-wikidata
 
 [There][20-rules] [are][prompts] [many][rules] [guides][augmenting] on the

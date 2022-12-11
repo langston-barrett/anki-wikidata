@@ -15,6 +15,7 @@ from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
     birth_country,
     birth_state,
+    borough,
     governor,
     political_party,
     senator,
@@ -27,6 +28,7 @@ app = typer.Typer()
 QUERIES = {
     "birth-country": birth_country.query,
     "birth-state": birth_state.query,
+    "borough": borough.query,
     "governor": governor.query,
     "senator": senator.query,
     "political-party": political_party.query,
@@ -60,17 +62,19 @@ def load_config(config_file: Path, create: bool = False) -> Config:
 
 
 @app.command()
-def add(config_file: Path, entity: str, card: List[str] = []) -> None:
-    if not entity.startswith("Q"):
-        print(
-            f"'{entity}' doesn't start with Q. Are you sure that's a Wikidata entity ID?"
-        )
-        exit(1)
+def add(config_file: Path, entity: List[str], card: List[str] = []) -> None:
+    """Add an entity to a deck"""
     config = load_config(config_file, create=True)
-    if any(e.id == entity for e in config.entities):
-        print(f"{entity} already in configuration file {config_file}")
-        exit(1)
-    config.entities.append(Entity(id=entity, cards=card))
+    for e in entity:
+        if not e.startswith("Q"):
+            print(
+                f"'{e}' doesn't start with Q. Are you sure that's a Wikidata entity ID?"
+            )
+            exit(1)
+        if any(e2.id == e for e2 in config.entities):
+            print(f"{e} already in configuration file {config_file}")
+            exit(1)
+        config.entities.append(Entity(id=e, cards=card))
     dump_config(config, config_file)
 
 
@@ -78,6 +82,7 @@ def add(config_file: Path, entity: str, card: List[str] = []) -> None:
 def build(
     config_file: Path, output: Path = Path("out.apkg"), name: str = "default"
 ) -> None:
+    """Build an apkg file from a deck (yml) file"""
     config = load_config(config_file)
     cards = []
     for entity in config.entities:
@@ -94,6 +99,7 @@ def build(
 
 @app.command()
 def list(entity: str) -> None:
+    """List cards for entity"""
     if not entity.startswith("Q"):
         print(
             f"'{entity}' doesn't start with Q. Are you sure that's a Wikidata entity ID?"
@@ -104,6 +110,13 @@ def list(entity: str) -> None:
             print(query_name + ":")
             print("-", card.front)
             print("-", card.back)
+
+
+@app.command()
+def query(q: str) -> None:
+    """Query Wikidata"""
+    for result in get_results(q):
+        print(result)
 
 
 ID_QUERY = """
@@ -118,6 +131,7 @@ SELECT DISTINCT ?entity ?desc WHERE {
 
 @app.command()
 def id(name: str) -> None:
+    """List IDs and descriptions Wikidata entities with a given name"""
     query = ID_QUERY.replace("{NAME}", name)
     results = get_results(query)
     for result in results:

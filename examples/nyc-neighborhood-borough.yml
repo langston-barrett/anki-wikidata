@@ -1,0 +1,736 @@
+# SELECT DISTINCT ?hood ?nBorough ?nHood WHERE {
+#   ?hood wdt:P31 wd:Q123705 .
+#   ?hood wdt:P131 ?borough .
+#   ?borough wdt:P31 wd:Q408804 .
+#
+#   ?borough rdfs:label ?nBorough .
+#   filter(lang(?nBorough) = "en") .
+#
+#   ?hood rdfs:label ?nHood .
+#   filter(lang(?nHood) = "en") .
+# }
+  
+entities:
+- cards:
+  - borough
+  id: Q338167
+- cards:
+  - borough
+  id: Q500402
+- cards:
+  - borough
+  id: Q568572
+- cards:
+  - borough
+  id: Q280729
+- cards:
+  - borough
+  id: Q223000
+- cards:
+  - borough
+  id: Q110007
+- cards:
+  - borough
+  id: Q194644
+- cards:
+  - borough
+  id: Q109968
+- cards:
+  - borough
+  id: Q11259
+- cards:
+  - borough
+  id: Q11252
+- cards:
+  - borough
+  id: Q1043326
+- cards:
+  - borough
+  id: Q1069129
+- cards:
+  - borough
+  id: Q1107182
+- cards:
+  - borough
+  id: Q1043965
+- cards:
+  - borough
+  id: Q1189975
+- cards:
+  - borough
+  id: Q1191972
+- cards:
+  - borough
+  id: Q1189533
+- cards:
+  - borough
+  id: Q1139990
+- cards:
+  - borough
+  id: Q1191048
+- cards:
+  - borough
+  id: Q1190605
+- cards:
+  - borough
+  id: Q6650120
+- cards:
+  - borough
+  id: Q6649270
+- cards:
+  - borough
+  id: Q602140
+- cards:
+  - borough
+  id: Q675391
+- cards:
+  - borough
+  id: Q766014
+- cards:
+  - borough
+  id: Q748485
+- cards:
+  - borough
+  id: Q810961
+- cards:
+  - borough
+  id: Q1274032
+- cards:
+  - borough
+  id: Q1373472
+- cards:
+  - borough
+  id: Q1370292
+- cards:
+  - borough
+  id: Q1455265
+- cards:
+  - borough
+  id: Q1427377
+- cards:
+  - borough
+  id: Q1501208
+- cards:
+  - borough
+  id: Q1511813
+- cards:
+  - borough
+  id: Q1478163
+- cards:
+  - borough
+  id: Q1494337
+- cards:
+  - borough
+  id: Q1139313
+- cards:
+  - borough
+  id: Q1131513
+- cards:
+  - borough
+  id: Q866332
+- cards:
+  - borough
+  id: Q47037610
+- cards:
+  - borough
+  id: Q3376514
+- cards:
+  - borough
+  id: Q1588578
+- cards:
+  - borough
+  id: Q1633837
+- cards:
+  - borough
+  id: Q1633867
+- cards:
+  - borough
+  id: Q1670850
+- cards:
+  - borough
+  id: Q1857393
+- cards:
+  - borough
+  id: Q1574299
+- cards:
+  - borough
+  id: Q1857997
+- cards:
+  - borough
+  id: Q2662015
+- cards:
+  - borough
+  id: Q58981
+- cards:
+  - borough
+  id: Q99597278
+- cards:
+  - borough
+  id: Q104413388
+- cards:
+  - borough
+  id: Q111196698
+- cards:
+  - borough
+  id: Q107677679
+- cards:
+  - borough
+  id: Q63842644
+- cards:
+  - borough
+  id: Q111196692
+- cards:
+  - borough
+  id: Q111283923
+- cards:
+  - borough
+  id: Q104418012
+- cards:
+  - borough
+  id: Q59006
+- cards:
+  - borough
+  id: Q59022
+- cards:
+  - borough
+  id: Q59025
+- cards:
+  - borough
+  id: Q59030
+- cards:
+  - borough
+  id: Q58994
+- cards:
+  - borough
+  id: Q62148
+- cards:
+  - borough
+  id: Q59000
+- cards:
+  - borough
+  id: Q62145
+- cards:
+  - borough
+  id: Q58996
+- cards:
+  - borough
+  id: Q62146
+- cards:
+  - borough
+  id: Q58987
+- cards:
+  - borough
+  id: Q62291
+- cards:
+  - borough
+  id: Q62151
+- cards:
+  - borough
+  id: Q62201
+- cards:
+  - borough
+  id: Q62296
+- cards:
+  - borough
+  id: Q62372
+- cards:
+  - borough
+  id: Q62212
+- cards:
+  - borough
+  id: Q62292
+- cards:
+  - borough
+  id: Q62192
+- cards:
+  - borough
+  id: Q62205
+- cards:
+  - borough
+  id: Q62295
+- cards:
+  - borough
+  id: Q62197
+- cards:
+  - borough
+  id: Q62200
+- cards:
+  - borough
+  id: Q62190
+- cards:
+  - borough
+  id: Q25491412
+- cards:
+  - borough
+  id: Q8053526
+- cards:
+  - borough
+  id: Q14706462
+- cards:
+  - borough
+  id: Q14706778
+- cards:
+  - borough
+  id: Q121765
+- cards:
+  - borough
+  id: Q62486
+- cards:
+  - borough
+  id: Q62394
+- cards:
+  - borough
+  id: Q62460
+- cards:
+  - borough
+  id: Q62569
+- cards:
+  - borough
+  id: Q62473
+- cards:
+  - borough
+  id: Q1145574
+- cards:
+  - borough
+  id: Q1058775
+- cards:
+  - borough
+  id: Q391577
+- cards:
+  - borough
+  id: Q1018954
+- cards:
+  - borough
+  id: Q1202211
+- cards:
+  - borough
+  id: Q1292552
+- cards:
+  - borough
+  id: Q2180242
+- cards:
+  - borough
+  id: Q1190597
+- cards:
+  - borough
+  id: Q2893642
+- cards:
+  - borough
+  id: Q5146517
+- cards:
+  - borough
+  id: Q5025262
+- cards:
+  - borough
+  id: Q2892339
+- cards:
+  - borough
+  id: Q2894882
+- cards:
+  - borough
+  id: Q3143364
+- cards:
+  - borough
+  id: Q2925063
+- cards:
+  - borough
+  id: Q3310624
+- cards:
+  - borough
+  id: Q2870650
+- cards:
+  - borough
+  id: Q2894717
+- cards:
+  - borough
+  id: Q2921828
+- cards:
+  - borough
+  id: Q2925858
+- cards:
+  - borough
+  id: Q2868473
+- cards:
+  - borough
+  id: Q5172108
+- cards:
+  - borough
+  id: Q5302197
+- cards:
+  - borough
+  id: Q5568334
+- cards:
+  - borough
+  id: Q5503003
+- cards:
+  - borough
+  id: Q6397896
+- cards:
+  - borough
+  id: Q6397898
+- cards:
+  - borough
+  id: Q6651117
+- cards:
+  - borough
+  id: Q5567928
+- cards:
+  - borough
+  id: Q5881588
+- cards:
+  - borough
+  id: Q6783909
+- cards:
+  - borough
+  id: Q7073999
+- cards:
+  - borough
+  id: Q6841642
+- cards:
+  - borough
+  id: Q7523819
+- cards:
+  - borough
+  id: Q7564094
+- cards:
+  - borough
+  id: Q7332840
+- cards:
+  - borough
+  id: Q7996274
+- cards:
+  - borough
+  id: Q628201
+- cards:
+  - borough
+  id: Q771572
+- cards:
+  - borough
+  id: Q818193
+- cards:
+  - borough
+  id: Q778934
+- cards:
+  - borough
+  id: Q828553
+- cards:
+  - borough
+  id: Q991279
+- cards:
+  - borough
+  id: Q915813
+- cards:
+  - borough
+  id: Q1544785
+- cards:
+  - borough
+  id: Q1536676
+- cards:
+  - borough
+  id: Q2607610
+- cards:
+  - borough
+  id: Q2270906
+- cards:
+  - borough
+  id: Q1781122
+- cards:
+  - borough
+  id: Q2159619
+- cards:
+  - borough
+  id: Q2354222
+- cards:
+  - borough
+  id: Q2288728
+- cards:
+  - borough
+  id: Q23092162
+- cards:
+  - borough
+  id: Q22713707
+- cards:
+  - borough
+  id: Q4120898
+- cards:
+  - borough
+  id: Q4163943
+- cards:
+  - borough
+  id: Q3680818
+- cards:
+  - borough
+  id: Q4137507
+- cards:
+  - borough
+  id: Q4937230
+- cards:
+  - borough
+  id: Q4974842
+- cards:
+  - borough
+  id: Q5031191
+- cards:
+  - borough
+  id: Q2911280
+- cards:
+  - borough
+  id: Q3294366
+- cards:
+  - borough
+  id: Q2892166
+- cards:
+  - borough
+  id: Q3238884
+- cards:
+  - borough
+  id: Q5100132
+- cards:
+  - borough
+  id: Q5200337
+- cards:
+  - borough
+  id: Q5123279
+- cards:
+  - borough
+  id: Q5471250
+- cards:
+  - borough
+  id: Q5471278
+- cards:
+  - borough
+  id: Q5605028
+- cards:
+  - borough
+  id: Q5455188
+- cards:
+  - borough
+  id: Q5589993
+- cards:
+  - borough
+  id: Q5046569
+- cards:
+  - borough
+  id: Q6391396
+- cards:
+  - borough
+  id: Q5318679
+- cards:
+  - borough
+  id: Q7568512
+- cards:
+  - borough
+  id: Q7913585
+- cards:
+  - borough
+  id: Q9063239
+- cards:
+  - borough
+  id: Q13856437
+- cards:
+  - borough
+  id: Q18977149
+- cards:
+  - borough
+  id: Q6754060
+- cards:
+  - borough
+  id: Q7629270
+- cards:
+  - borough
+  id: Q7250806
+- cards:
+  - borough
+  id: Q7979549
+- cards:
+  - borough
+  id: Q43341075
+- cards:
+  - borough
+  id: Q30621634
+- cards:
+  - borough
+  id: Q43339513
+- cards:
+  - borough
+  id: Q43339482
+- cards:
+  - borough
+  id: Q7291581
+- cards:
+  - borough
+  id: Q7828469
+- cards:
+  - borough
+  id: Q7331071
+- cards:
+  - borough
+  id: Q5457012
+- cards:
+  - borough
+  id: Q5599388
+- cards:
+  - borough
+  id: Q5295814
+- cards:
+  - borough
+  id: Q5597394
+- cards:
+  - borough
+  id: Q5347724
+- cards:
+  - borough
+  id: Q5472233
+- cards:
+  - borough
+  id: Q6751335
+- cards:
+  - borough
+  id: Q1982505
+- cards:
+  - borough
+  id: Q6842310
+- cards:
+  - borough
+  id: Q6764380
+- cards:
+  - borough
+  id: Q4928220
+- cards:
+  - borough
+  id: Q5133146
+- cards:
+  - borough
+  id: Q8021139
+- cards:
+  - borough
+  id: Q8032975
+- cards:
+  - borough
+  id: Q18350249
+- cards:
+  - borough
+  id: Q14707120
+- cards:
+  - borough
+  id: Q15267565
+- cards:
+  - borough
+  id: Q10701869
+- cards:
+  - borough
+  id: Q15223005
+- cards:
+  - borough
+  id: Q14707595
+- cards:
+  - borough
+  id: Q3663079
+- cards:
+  - borough
+  id: Q3569613
+- cards:
+  - borough
+  id: Q4732133
+- cards:
+  - borough
+  id: Q4884287
+- cards:
+  - borough
+  id: Q4879175
+- cards:
+  - borough
+  id: Q5177226
+- cards:
+  - borough
+  id: Q5327954
+- cards:
+  - borough
+  id: Q5757835
+- cards:
+  - borough
+  id: Q5945764
+- cards:
+  - borough
+  id: Q5447230
+- cards:
+  - borough
+  id: Q4874397
+- cards:
+  - borough
+  id: Q5188993
+- cards:
+  - borough
+  id: Q5329558
+- cards:
+  - borough
+  id: Q2404798
+- cards:
+  - borough
+  id: Q5127836
+- cards:
+  - borough
+  id: Q1421611
+- cards:
+  - borough
+  id: Q7056530
+- cards:
+  - borough
+  id: Q7740771
+- cards:
+  - borough
+  id: Q7138200
+- cards:
+  - borough
+  id: Q7961018
+- cards:
+  - borough
+  id: Q7581636
+- cards:
+  - borough
+  id: Q7913536
+- cards:
+  - borough
+  id: Q7985146
+- cards:
+  - borough
+  id: Q7433085
+- cards:
+  - borough
+  id: Q7565008
+- cards:
+  - borough
+  id: Q7984595
+- cards:
+  - borough
+  id: Q7161355
+- cards:
+  - borough
+  id: Q6413137
+- cards:
+  - borough
+  id: Q6674497
+- cards:
+  - borough
+  id: Q6413127
+- cards:
+  - borough
+  id: Q6666147
+- cards:
+  - borough
+  id: Q6813612
+- cards:
+  - borough
+  id: Q7161345
+- cards:
+  - borough
+  id: Q6913846
+- cards:
+  - borough
+  id: Q6918623
+- cards:
+  - borough
+  id: Q7161361
+- cards:
+  - borough
+  id: Q7515836

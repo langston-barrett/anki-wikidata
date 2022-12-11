@@ -12,7 +12,13 @@ from pydantic import ValidationError
 
 from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
-from anki_wikidata.queries import birth_country, governor, political_party, senator
+from anki_wikidata.queries import (
+    birth_country,
+    birth_state,
+    governor,
+    political_party,
+    senator,
+)
 from anki_wikidata.queries.util import get_results
 
 app = typer.Typer()
@@ -20,6 +26,7 @@ app = typer.Typer()
 
 QUERIES = {
     "birth-country": birth_country.query,
+    "birth-state": birth_state.query,
     "governor": governor.query,
     "senator": senator.query,
     "political-party": political_party.query,

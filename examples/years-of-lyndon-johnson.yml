@@ -1,9 +1,17 @@
+# https://en.wikipedia.org/wiki/The_Years_of_Lyndon_Johnson
 entities:
 
 # Coke R. Stevenson
 - id: Q542045
   cards:
+  - birth-state
   - governor
+  - political-party
+
+# Dwight D. Eisenhower
+- id: Q9916
+  cards:
+  - birth-state
   - political-party
 
 # Hubert Humphrey
@@ -21,22 +29,33 @@ entities:
 # FDR
 - id: Q8007
   cards:
+  - birth-state
   - political-party
   - governor
 
 # LBJ
 - id: Q9640
   cards:
+  - birth-state
+  - political-party
+  - senator
+
+# Richard Nixon
+- id: Q9916
+  cards:
+  - birth-state
   - political-party
   - senator
 
 # Richard Russell
 - id: Q718415
   cards:
+  - birth-state
   - political-party
   - senator
 
 # Sam Rayburn
 - id: Q1378052
   cards:
+  - birth-state
   - political-party

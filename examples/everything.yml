@@ -1,0 +1,158 @@
+id: 1607392442
+entities:
+
+# Abraham Lincoln
+- id: Q91
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - birth-state
+  - death-year
+  - manner-of-death
+
+# Coke R. Stevenson
+- id: Q542045
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - governor-of
+  - political-party
+
+# Dwight D. Eisenhower
+- id: Q9916
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - manner-of-death
+  - political-party
+
+# Hubert Humphrey
+- id: Q209989
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - political-party
+  - senator-of
+
+# JFK
+- id: Q9696
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - manner-of-death
+  - political-party
+  - senator-of
+
+# FDR
+- id: Q8007
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - death-year
+  - manner-of-death
+  - political-party
+  - governor-of
+
+# LBJ
+- id: Q9640
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - brother
+  - father
+  - manner-of-death
+  - mother
+  - political-party
+  - senator-of
+
+# RFK
+- id: Q25310
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - death-year
+  - manner-of-death
+  - political-party
+  - senator-of
+
+# Richard Nixon
+- id: Q9916
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - manner-of-death
+  - political-party
+  - senator-of
+
+# Richard Russell
+- id: Q718415
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - political-party
+  - senator-of
+
+# Sam Houston Johnson 
+- id: Q7407641
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - brother
+  - father
+  - mother
+
+# Sam Rayburn
+- id: Q1378052
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - political-party
+
+# Starr County
+- id: Q26762
+  tags:
+  - book/lbj
+  - history/us
+  cards: []
+
+# W. Lee O'Daniel
+- id: Q676664
+  tags:
+  - book/lbj
+  - history/us
+  cards:
+  - birth-state
+  - governor-of
+  - political-party
+  - senator-of
+
+# William H. Seward
+- id: Q297308
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - governor-of
+  - senator-of

@@ -5,18 +5,16 @@ from queries.util import get_results
 from ..card import Card
 
 QUERY = """
-SELECT DISTINCT ?nBorough ?nPlace WHERE {
+SELECT DISTINCT ?name ?nMother WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en_US". }
 
-  {ITEM} wdt:P131 ?borough .
-  ?borough wdt:P31 wd:Q408804 .
+  {ITEM} wdt:P25 ?mother .
+  ?mother rdfs:label ?nMother .
+  filter(lang(?nMother) = "en") .
 
-  ?borough rdfs:label ?nBorough .
-  filter(lang(?nBorough) = "en") .
-
-  {ITEM} rdfs:label ?nPlace .
-  filter(lang(?nPlace) = "en") .
-} 
+  {ITEM} rdfs:label ?name .
+  filter(lang(?name) = "en") .
+}
 """
 
 
@@ -27,8 +25,8 @@ def query(entity: str) -> list[Card]:
         return []
     return [
         Card(
-            id=f"borough-{entity[3:]}",
-            front=f"'{results[0]['nPlace']}' is part of which borough?",
-            back=results[0]["nBorough"],
+            id=f"mother-{entity[3:]}",
+            front=f"What was the name of the mother of {results[0]['name']}?",
+            back=results[0]["nMother"],
         )
     ]

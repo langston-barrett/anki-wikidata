@@ -1,4 +1,5 @@
 # https://en.wikipedia.org/wiki/The_Years_of_Lyndon_Johnson
+id: 1607392429
 entities:
 
 # Coke R. Stevenson
@@ -30,6 +31,7 @@ entities:
 - id: Q8007
   cards:
   - birth-state
+  - death-year
   - political-party
   - governor
 
@@ -37,6 +39,14 @@ entities:
 - id: Q9640
   cards:
   - birth-state
+  - political-party
+  - senator
+
+# RFK
+- id: Q25310
+  cards:
+  - birth-state
+  - death-year
   - political-party
   - senator
 
@@ -59,3 +69,15 @@ entities:
   cards:
   - birth-state
   - political-party
+
+# Starr County
+- id: Q26762
+  cards: []
+
+# W. Lee O'Daniel
+- id: Q676664
+  cards:
+  - birth-state
+  - governor
+  - political-party
+  - senator

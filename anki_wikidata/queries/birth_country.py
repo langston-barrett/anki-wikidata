@@ -25,7 +25,7 @@ def query(entity: str) -> list[Card]:
         return []
     return [
         Card(
-            id=f"birth-country-{entity}",
+            id=f"birth-country-{entity[3:]}",
             front=f"In what country was {results[0]['name']} born?",
             back=results[0]["nCountry"],
         )

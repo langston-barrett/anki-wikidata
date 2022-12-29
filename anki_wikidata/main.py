@@ -10,13 +10,19 @@ import typer
 import yaml
 from pydantic import ValidationError
 
+from anki_wikidata.card import Card
 from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
     birth_country,
     birth_state,
     borough,
+    brother,
+    death_year,
+    father,
     governor,
+    manner_of_death,
+    mother,
     political_party,
     senator,
 )
@@ -29,9 +35,14 @@ QUERIES = {
     "birth-country": birth_country.query,
     "birth-state": birth_state.query,
     "borough": borough.query,
-    "governor": governor.query,
-    "senator": senator.query,
+    "brother": brother.query,
+    "death-year": death_year.query,
+    "father": father.query,
+    "governor-of": governor.query,
+    "manner-of-death": manner_of_death.query,
+    "mother": mother.query,
     "political-party": political_party.query,
+    "senator-of": senator.query,
 }
 
 
@@ -84,17 +95,20 @@ def build(
 ) -> None:
     """Build an apkg file from a deck (yml) file"""
     config = load_config(config_file)
-    cards = []
+    cards: List[Card] = []
     for entity in config.entities:
-        for query_name in entity.cards:
-            if query_name not in QUERIES:
-                print("Invalid card name:", query_name)
+        for q in entity.cards:
+            if q not in QUERIES:
+                print("Invalid card name:", q)
                 exit(1)
-            cs = QUERIES[query_name]("wd:" + entity.id)
-            for card in cs:
-                print(card)
-            cards.extend(cs)
-    write_deck(output, name, cards)
+            cs = QUERIES[q]("wd:" + entity.id)
+            if cs == []:
+                print(f"Warning: No cards for {q}-{entity.id}")
+            for c in cs:
+                c.tags = entity.tags
+                print(c.front, c.back)
+                cards.append(c)
+    write_deck(config.id, output, name, cards)
 
 
 @app.command()

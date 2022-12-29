@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 from json import JSONDecodeError, loads
 from sys import exit
 from time import sleep

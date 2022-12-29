@@ -8,14 +8,13 @@ from genanki import Deck, Model, Note, Package
 
 from .card import Card
 
-ARBITRARY_UNIQUE_ID1 = 1607392419
-ARBITRARY_UNIQUE_ID2 = 1607392420
+ARBITRARY_UNIQUE_ID = 1607392419
 
 # TODO: The date should appear smaller and in grey.
 BASIC_MODEL = Model(
-    ARBITRARY_UNIQUE_ID1,
+    ARBITRARY_UNIQUE_ID,
     "Basic",
-    fields=[{"name": "Front"}, {"name": "Back"}, {"name": "Reserved"}],
+    fields=[{"name": "Front"}, {"name": "Back"}, {"name": "Id"}, {"name": "Reserved"}],
     templates=[
         {
             "name": "Card",
@@ -46,16 +45,21 @@ class IdNote(Note):
 
 
 def note(card: Card) -> Note:
-    return IdNote(card.id, model=BASIC_MODEL, fields=[card.front, card.back, ""])
+    return IdNote(
+        card.id,
+        model=BASIC_MODEL,
+        fields=[card.front, card.back, card.id, ""],
+        tags=card.tags,
+    )
 
 
-def deck(name: str, cards: list[Card]) -> Deck:
-    d = Deck(ARBITRARY_UNIQUE_ID2, name)
+def deck(id: int, name: str, cards: list[Card]) -> Deck:
+    d = Deck(id, name)
     for card in cards:
         d.add_note(note(card))
     return d
 
 
-def write_deck(path: Path, name: str, cards: list[Card]) -> Package:
-    pkg = Package(deck(name, cards))
+def write_deck(id: int, path: Path, name: str, cards: list[Card]) -> Package:
+    pkg = Package(deck(id, name, cards))
     pkg.write_to_file(str(path))

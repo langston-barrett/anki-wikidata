@@ -10,7 +10,27 @@ entities:
   cards:
   - birth-state
   - death-year
+  - killed-by
   - manner-of-death
+  - place-of-death
+
+# American Civil War
+- id: Q8676
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - begin-year
+  - end-year
+
+# Bleeding Kansas
+- id: Q331377
+  tags:
+  - history/us
+  - history/us/civil-war
+  cards:
+  - begin-year
 
 # Coke R. Stevenson
 - id: Q542045
@@ -47,9 +67,18 @@ entities:
   - book/lbj
   - history/us
   cards:
+  - killed-by
   - manner-of-death
   - political-party
   - senator-of
+
+# John Brown's raid on Harpers Ferry 
+- id: Q6223430
+  tags:
+  - history/us
+  - history/us/civil-war
+  cards:
+  - happened-year
 
 # FDR
 - id: Q8007
@@ -77,6 +106,26 @@ entities:
   - political-party
   - senator-of
 
+#  Martin Luther King Jr.
+- id: Q8027
+  tags:
+  - book/lbj
+  - history/us
+  - history/us/civil-rights
+  cards:
+  - birth-state
+  - death-year
+  - killed-by
+  - manner-of-death
+  - place-of-death
+
+# Missouri Compromise 
+- id: Q727854
+  tags:
+  - history/us
+  - history/us/civil-war
+  cards: []
+
 # RFK
 - id: Q25310
   tags:
@@ -85,6 +134,7 @@ entities:
   cards:
   - birth-state
   - death-year
+  - killed-by
   - manner-of-death
   - political-party
   - senator-of
@@ -108,6 +158,16 @@ entities:
   cards:
   - birth-state
   - political-party
+  - senator-of
+
+# Salmon P. Chase 
+- id: Q433051
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - governor-of
   - senator-of
 
 # Sam Houston Johnson 

@@ -14,14 +14,19 @@ from anki_wikidata.card import Card
 from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
+    begin_year,
     birth_country,
     birth_state,
     borough,
     brother,
     death_year,
+    end_year,
     father,
+    killed_by,
     governor,
+    happened_year,
     manner_of_death,
+    place_of_death,
     mother,
     political_party,
     senator,
@@ -31,15 +36,23 @@ from anki_wikidata.queries.util import get_results
 app = typer.Typer()
 
 
+# TODO:
+# - City of death
+# - Sister
 QUERIES = {
+    "begin-year": begin_year.query,
     "birth-country": birth_country.query,
     "birth-state": birth_state.query,
     "borough": borough.query,
     "brother": brother.query,
     "death-year": death_year.query,
+    "end-year": end_year.query,
     "father": father.query,
+    "killed-by": killed_by.query,
     "governor-of": governor.query,
+    "happened-year": happened_year.query,
     "manner-of-death": manner_of_death.query,
+    "place-of-death": place_of_death.query,
     "mother": mother.query,
     "political-party": political_party.query,
     "senator-of": senator.query,

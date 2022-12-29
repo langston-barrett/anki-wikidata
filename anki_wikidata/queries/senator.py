@@ -27,7 +27,7 @@ def query(entity: str) -> list[Card]:
         return []
     return [
         Card(
-            id=f"governor-{entity[3:]}",
+            id=f"senator-of-{entity[3:]}",
             front=f"{results[0]['name']} was senator of what state?",
             back=results[0]["nState"],
         )

@@ -24,6 +24,25 @@ entities:
   - begin-year
   - end-year
 
+# Battle of Appomattox Court House 
+- id: Q1355391
+  tags:
+  - history/us
+  - history/us/civil-war
+  cards:
+  - happened-year
+  - part-of-war
+
+# Battle of Fort Sumter
+- id: Q543165
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - happened-year
+  - part-of-war
+
 # Bleeding Kansas
 - id: Q331377
   tags:
@@ -51,6 +70,15 @@ entities:
   - birth-state
   - manner-of-death
   - political-party
+
+# Edward Bates 
+- id: Q1291670
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - cabinet-position
 
 # Hubert Humphrey
 - id: Q209989
@@ -106,7 +134,7 @@ entities:
   - political-party
   - senator-of
 
-#  Martin Luther King Jr.
+# Martin Luther King Jr.
 - id: Q8027
   tags:
   - book/lbj
@@ -133,6 +161,7 @@ entities:
   - history/us
   cards:
   - birth-state
+  - cabinet-position
   - death-year
   - killed-by
   - manner-of-death
@@ -167,6 +196,7 @@ entities:
   - history/us
   - history/us/civil-war
   cards:
+  - cabinet-position
   - governor-of
   - senator-of
 
@@ -214,5 +244,6 @@ entities:
   - history/us
   - history/us/civil-war
   cards:
+  - cabinet-position
   - governor-of
   - senator-of

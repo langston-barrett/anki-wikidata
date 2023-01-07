@@ -2,9 +2,10 @@
 
 from __future__ import annotations
 
+from json import dumps as json_dumps
 from pathlib import Path
 from sys import exit
-from typing import List
+from typing import List, Optional
 
 import typer
 import yaml
@@ -21,17 +22,22 @@ from anki_wikidata.queries import (
     brother,
     cabinet_position,
     death_year,
+    director,
+    election_winner,
     end_year,
     father,
     killed_by,
     governor,
     happened_year,
+    location_state,
     manner_of_death,
     part_of_war,
     place_of_death,
     mother,
     political_party,
+    publication_date,
     senator,
+    spouse,
 )
 from anki_wikidata.queries.util import get_results
 
@@ -49,23 +55,33 @@ QUERIES = {
     "brother": brother.query,
     "cabinet-position": cabinet_position.query,
     "death-year": death_year.query,
+    "director": director.query,
+    "election-winner": election_winner.query,
     "end-year": end_year.query,
     "father": father.query,
     "killed-by": killed_by.query,
     "governor-of": governor.query,
     "happened-year": happened_year.query,
+    "location-state": location_state.query,
     "manner-of-death": manner_of_death.query,
     "part-of-war": part_of_war.query,
     "place-of-death": place_of_death.query,
     "mother": mother.query,
     "political-party": political_party.query,
+    "publication-date": publication_date.query,
     "senator-of": senator.query,
+    "spouse": spouse.query,
 }
 
 
-def dump_config(config: Config, config_file: Path) -> None:
+def dump_config(config: Config, config_file: Path, json: bool = False) -> None:
     with open(config_file, mode="w") as f:
-        f.write(yaml.dump(config.dict()))
+        if json:
+            config.entities = sorted(config.entities, key=lambda e: e.name)
+            dumped = json_dumps(config.dict(), indent=2)
+        else:
+            dumped = yaml.dump(config.dict())
+        f.write(dumped)
 
 
 def load_config_file(config_file: Path, create: bool = False) -> str:
@@ -89,11 +105,50 @@ def load_config(config_file: Path, create: bool = False) -> Config:
         exit(1)
 
 
+def choose_id(name: str) -> Optional[str]:
+    results = ids(name)
+    if results == []:
+        print("No results")
+        return
+
+    if len(results) == 1:
+        return results[0][0]
+
+    for (idx, (_id, desc)) in enumerate(results):
+        print(str(idx) + ":", desc)
+    while True:
+        try:
+            user_idx = int(input("Choose a number: "))
+        except ValueError:
+            print("Not a number!")
+            continue
+        if user_idx >= len(results):
+            print("Invalid choice!")
+        else:
+            break
+
+    return results[idx][0]
+
+
 @app.command()
-def add(config_file: Path, entity: List[str], card: List[str] = []) -> None:
+def add(
+    config_file: Path,
+    entity: List[str] = [],
+    name: Optional[str] = None,
+    tags: List[str] = [],
+    card: List[str] = [],
+) -> None:
     """Add an entity to a deck"""
-    config = load_config(config_file, create=True)
+    config = load_config(config_file, create=False)
+
+    if entity == [] or name != None:
+        if name == None:
+            name = input("Enter a name: ")
+        entity = [choose_id(name)]
+
     for e in entity:
+        if e == None:
+            return
         if not e.startswith("Q"):
             print(
                 f"'{e}' doesn't start with Q. Are you sure that's a Wikidata entity ID?"
@@ -102,8 +157,8 @@ def add(config_file: Path, entity: List[str], card: List[str] = []) -> None:
         if any(e2.id == e for e2 in config.entities):
             print(f"{e} already in configuration file {config_file}")
             exit(1)
-        config.entities.append(Entity(id=e, cards=card))
-    dump_config(config, config_file)
+        config.entities.append(Entity(id=e, cards=card, tags=tags, name=name))
+    dump_config(config, config_file, json=config_file.suffix == ".json")
 
 
 @app.command()
@@ -160,9 +215,17 @@ SELECT DISTINCT ?entity ?desc WHERE {
 """
 
 
+def ids(name: str, delay: int = 0) -> List[Tuple[str, str]]:
+    """List IDs and descriptions Wikidata entities with a given name"""
+    query = ID_QUERY.replace("{NAME}", name)
+    results = get_results(query, delay=delay)
+    return [(result["entity"].split("/")[-1], result["desc"]) for result in results]
+
+
 @app.command()
 def id(name: str) -> None:
     """List IDs and descriptions Wikidata entities with a given name"""
+    # TODO use ids
     query = ID_QUERY.replace("{NAME}", name)
     results = get_results(query)
     for result in results:

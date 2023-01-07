@@ -1,6 +1,15 @@
 id: 1607392442
 entities:
 
+# 1860 United States presidential election
+- id: Q698842
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - election-winner
+
 # Abraham Lincoln
 - id: Q91
   tags:
@@ -13,6 +22,7 @@ entities:
   - killed-by
   - manner-of-death
   - place-of-death
+  - spouse
 
 # American Civil War
 - id: Q8676
@@ -24,13 +34,14 @@ entities:
   - begin-year
   - end-year
 
-# Battle of Appomattox Court House 
+# Battle of Appomattox Court House
 - id: Q1355391
   tags:
   - history/us
   - history/us/civil-war
   cards:
   - happened-year
+  - location-state
   - part-of-war
 
 # Battle of Fort Sumter
@@ -41,6 +52,7 @@ entities:
   - history/us/civil-war
   cards:
   - happened-year
+  - location-state
   - part-of-war
 
 # Bleeding Kansas
@@ -71,8 +83,17 @@ entities:
   - manner-of-death
   - political-party
 
-# Edward Bates 
+# Edward Bates
 - id: Q1291670
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - cabinet-position
+
+# Edwin M. Stanton
+- id: Q448803
   tags:
   - book/team-of-rivals
   - history/us
@@ -99,14 +120,23 @@ entities:
   - manner-of-death
   - political-party
   - senator-of
+  - spouse
 
-# John Brown's raid on Harpers Ferry 
+# John Brown's raid on Harpers Ferry
 - id: Q6223430
   tags:
   - history/us
   - history/us/civil-war
   cards:
   - happened-year
+
+# Kansas-Nebraska Act
+- id: Q619762
+  tags:
+  - history/us
+  - history/us/civil-war
+  cards:
+  - publication-date
 
 # FDR
 - id: Q8007
@@ -146,8 +176,18 @@ entities:
   - killed-by
   - manner-of-death
   - place-of-death
+  - spouse
 
-# Missouri Compromise 
+# Mary Todd Lincoln
+- id: Q215062
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - spouse
+
+# Missouri Compromise
 - id: Q727854
   tags:
   - history/us
@@ -189,7 +229,7 @@ entities:
   - political-party
   - senator-of
 
-# Salmon P. Chase 
+# Salmon P. Chase
 - id: Q433051
   tags:
   - book/team-of-rivals
@@ -200,7 +240,7 @@ entities:
   - governor-of
   - senator-of
 
-# Sam Houston Johnson 
+# Sam Houston Johnson
 - id: Q7407641
   tags:
   - book/lbj
@@ -226,6 +266,24 @@ entities:
   - history/us
   cards: []
 
+# Stephen A. Douglas
+- id: Q433174
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards:
+  - political-party
+  - senator-of
+
+# Thirteenth Amendment to the United States Constitution
+- id: Q175613
+  tags:
+  - book/team-of-rivals
+  - history/us
+  - history/us/civil-war
+  cards: []
+
 # W. Lee O'Daniel
 - id: Q676664
   tags:
@@ -247,3 +305,4 @@ entities:
   - cabinet-position
   - governor-of
   - senator-of
+  - spouse

@@ -15,13 +15,13 @@ def query_url(query: str) -> str:
     return URL + quote(query)
 
 
-def run_query(query: str) -> str:
-    sleep(1)
+def run_query(query: str, delay: int = 1) -> str:
+    sleep(delay)
     return get(query_url(query), params={"format": "json"}).text
 
 
-def get_results(query: str) -> list[dict[str, str]]:
-    result_text = run_query(query)
+def get_results(query: str, delay: int = 1) -> list[dict[str, str]]:
+    result_text = run_query(query, delay=delay)
     try:
         return [
             {bind: val["value"] for (bind, val) in d.items()}

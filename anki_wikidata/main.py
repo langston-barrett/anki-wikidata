@@ -74,13 +74,21 @@ QUERIES = {
 }
 
 
-def dump_config(config: Config, config_file: Path, json: bool = False) -> None:
+def dump_config(
+    config: Config, config_file: Path, *, json: bool = False, normalize: bool = True
+) -> None:
+    # TODO: Normalize key order
+    # https://stackoverflow.com/questions/18405537
+    d = config.dict()
+    if normalize:
+        config.entities = sorted(config.entities, key=lambda e: e.name)
+        d = config.dict()
+
     with open(config_file, mode="w") as f:
         if json:
-            config.entities = sorted(config.entities, key=lambda e: e.name)
-            dumped = json_dumps(config.dict(), indent=2)
+            dumped = json_dumps(d, indent=2)
         else:
-            dumped = yaml.dump(config.dict())
+            dumped = yaml.dump(d)
         f.write(dumped)
 
 
@@ -135,7 +143,7 @@ def add(
     config_file: Path,
     entity: List[str] = [],
     name: Optional[str] = None,
-    tags: List[str] = [],
+    tag: List[str] = [],
     card: List[str] = [],
 ) -> None:
     """Add an entity to a deck"""
@@ -157,7 +165,7 @@ def add(
         if any(e2.id == e for e2 in config.entities):
             print(f"{e} already in configuration file {config_file}")
             exit(1)
-        config.entities.append(Entity(id=e, cards=card, tags=tags, name=name))
+        config.entities.append(Entity(id=e, cards=card, tags=tag, name=name))
     dump_config(config, config_file, json=config_file.suffix == ".json")
 
 

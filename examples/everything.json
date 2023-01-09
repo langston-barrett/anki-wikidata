@@ -31,6 +31,36 @@
       "name": "Abraham Lincoln"
     },
     {
+      "id": "Q352431",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Adaptation"
+    },
+    {
+      "id": "Q846209",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "After Hours"
+    },
+    {
+      "id": "Q209758",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Alien"
+    },
+    {
       "id": "Q8676",
       "tags": [
         "book/team-of-rivals",
@@ -42,6 +72,26 @@
         "end-year"
       ],
       "name": "American Civil War"
+    },
+    {
+      "id": "Q270351",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "American Gangster"
+    },
+    {
+      "id": "Q166262",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Batman Begins"
     },
     {
       "id": "Q1355391",
@@ -71,6 +121,46 @@
       "name": "Battle of Fort Sumter"
     },
     {
+      "id": "Q659609",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Before Sunrise"
+    },
+    {
+      "id": "Q649165",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Being John Malkovich"
+    },
+    {
+      "id": "Q52067286",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Black Klansman"
+    },
+    {
+      "id": "Q12255364",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Blade Runner"
+    },
+    {
       "id": "Q331377",
       "tags": [
         "history/us",
@@ -80,6 +170,36 @@
         "begin-year"
       ],
       "name": "Bleeding Kansas"
+    },
+    {
+      "id": "Q11464692",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Boyhood"
+    },
+    {
+      "id": "Q2282336",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Casino"
+    },
+    {
+      "id": "Q208108",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Catch Me If You Can"
     },
     {
       "id": "Q542045",
@@ -95,6 +215,16 @@
       "name": "Coke R. Stevenson"
     },
     {
+      "id": "Q75118788",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Cronos"
+    },
+    {
       "id": "Q62277203",
       "tags": [
         "film"
@@ -103,6 +233,36 @@
         "director"
       ],
       "name": "Da 5 Bloods"
+    },
+    {
+      "id": "Q571032",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Django Unchained"
+    },
+    {
+      "id": "Q106718418",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Do the Right Thing"
+    },
+    {
+      "id": "Q388652",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Dunkirk"
     },
     {
       "id": "Q9916",
@@ -116,6 +276,16 @@
         "political-party"
       ],
       "name": "Dwight D. Eisenhower"
+    },
+    {
+      "id": "Q60629803",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "E.T."
     },
     {
       "id": "Q1291670",
@@ -157,6 +327,36 @@
       "name": "FDR"
     },
     {
+      "id": "Q5554063",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Get Out"
+    },
+    {
+      "id": "Q42047",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Goodfellas"
+    },
+    {
+      "id": "Q788822",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Her"
+    },
+    {
       "id": "Q209989",
       "tags": [
         "book/lbj",
@@ -167,6 +367,36 @@
         "senator-of"
       ],
       "name": "Hubert Humphrey"
+    },
+    {
+      "id": "Q54888301",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Inception"
+    },
+    {
+      "id": "Q98018448",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Indiana Jones"
+    },
+    {
+      "id": "Q21186666",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Interstellar"
     },
     {
       "id": "Q9696",
@@ -184,6 +414,26 @@
       "name": "JFK"
     },
     {
+      "id": "Q431252",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Jackie Brown"
+    },
+    {
+      "id": "Q30900028",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Jaws"
+    },
+    {
       "id": "Q6223430",
       "tags": [
         "history/us",
@@ -193,6 +443,16 @@
         "happened-year"
       ],
       "name": "John Brown's raid on Harpers Ferry"
+    },
+    {
+      "id": "Q16568143",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Jurassic Park"
     },
     {
       "id": "Q619762",
@@ -223,6 +483,16 @@
       "name": "LBJ"
     },
     {
+      "id": "Q102036245",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Licorice Pizza"
+    },
+    {
       "id": "Q52976107",
       "tags": [
         "film"
@@ -231,6 +501,26 @@
         "director"
       ],
       "name": "Lincoln"
+    },
+    {
+      "id": "Q180057",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Lincoln"
+    },
+    {
+      "id": "Q74882245",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Malcolm X"
     },
     {
       "id": "Q8027",
@@ -262,6 +552,36 @@
       "name": "Mary Todd Lincoln"
     },
     {
+      "id": "Q6815197",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Memento"
+    },
+    {
+      "id": "Q488169",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Memories of Murder"
+    },
+    {
+      "id": "Q244604",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Minority Report"
+    },
+    {
       "id": "Q727854",
       "tags": [
         "history/us",
@@ -269,6 +589,26 @@
       ],
       "cards": [],
       "name": "Missouri Compromise"
+    },
+    {
+      "id": "Q217112",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Moonrise Kingdom"
+    },
+    {
+      "id": "Q39571",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "My Neighbor Totoro"
     },
     {
       "id": "Q115257443",
@@ -279,6 +619,86 @@
         "director"
       ],
       "name": "Nope"
+    },
+    {
+      "id": "Q107176162",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Nope"
+    },
+    {
+      "id": "Q23932553",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Okja"
+    },
+    {
+      "id": "Q16267612",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Pacific Rim"
+    },
+    {
+      "id": "Q111567208",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Parasite"
+    },
+    {
+      "id": "Q28840386",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Phantom Thread"
+    },
+    {
+      "id": "Q186572",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Princess Mononoke"
+    },
+    {
+      "id": "Q83160",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Prometheus"
+    },
+    {
+      "id": "Q104123",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Pulp Fiction"
     },
     {
       "id": "Q25310",
@@ -364,6 +784,46 @@
       "name": "Sam Rayburn"
     },
     {
+      "id": "Q820753",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "School of Rock"
+    },
+    {
+      "id": "Q492908",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Snowpiercer"
+    },
+    {
+      "id": "Q32067450",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Sorry to Bother You"
+    },
+    {
+      "id": "Q155653",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Spirited Away"
+    },
+    {
       "id": "Q26762",
       "tags": [
         "book/lbj",
@@ -386,6 +846,46 @@
       "name": "Stephen A. Douglas"
     },
     {
+      "id": "Q104607512",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Taxi Driver"
+    },
+    {
+      "id": "Q658944",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Darjeeling Limited"
+    },
+    {
+      "id": "Q163872",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Dark Knight"
+    },
+    {
+      "id": "Q172975",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Departed"
+    },
+    {
       "id": "Q59551547",
       "tags": [
         "film"
@@ -394,6 +894,76 @@
         "director"
       ],
       "name": "The French Dispatch"
+    },
+    {
+      "id": "Q96408861",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Grand Budapest Hotel"
+    },
+    {
+      "id": "Q104245402",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Host"
+    },
+    {
+      "id": "Q18547944",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Martian"
+    },
+    {
+      "id": "Q7750577",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Master"
+    },
+    {
+      "id": "Q7757856",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Post"
+    },
+    {
+      "id": "Q935105",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Royal Tenenbaums"
+    },
+    {
+      "id": "Q55635540",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Shape of Water"
     },
     {
       "id": "Q22986315",
@@ -406,6 +976,46 @@
       "name": "The Shining"
     },
     {
+      "id": "Q888131",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Wind Rises"
+    },
+    {
+      "id": "Q23777469",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Wolf of Wall Street"
+    },
+    {
+      "id": "Q658041",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Thelma & Louise"
+    },
+    {
+      "id": "Q244315",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "There Will Be Blood"
+    },
+    {
       "id": "Q175613",
       "tags": [
         "book/team-of-rivals",
@@ -414,6 +1024,16 @@
       ],
       "cards": [],
       "name": "Thirteenth Amendment to the United States Constitution"
+    },
+    {
+      "id": "Q7901638",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Us"
     },
     {
       "id": "Q676664",

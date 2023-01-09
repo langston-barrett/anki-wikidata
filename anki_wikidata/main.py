@@ -75,7 +75,7 @@ QUERIES = {
 
 
 def dump_config(
-    config: Config, config_file: Path, *, json: bool = False, normalize: bool = True
+    config: Config, config_file: Path, /, *, json: bool = False, normalize: bool = True
 ) -> None:
     # TODO: Normalize key order
     # https://stackoverflow.com/questions/18405537
@@ -92,7 +92,7 @@ def dump_config(
         f.write(dumped)
 
 
-def load_config_file(config_file: Path, create: bool = False) -> str:
+def load_config_file(config_file: Path, /, *, create: bool = False) -> str:
     if not config_file.exists():
         if not create:
             print("No configuration file at", config_file)
@@ -101,7 +101,7 @@ def load_config_file(config_file: Path, create: bool = False) -> str:
     return config_file.read_text()
 
 
-def load_config(config_file: Path, create: bool = False) -> Config:
+def load_config(config_file: Path, /, *, create: bool = False) -> Config:
     config_dict = yaml.safe_load(load_config_file(config_file, create=create))
     if config_dict is None:
         print("Invalid YAML at", config_file)
@@ -113,16 +113,26 @@ def load_config(config_file: Path, create: bool = False) -> Config:
         exit(1)
 
 
-def choose_id(name: str) -> Optional[str]:
+def choose_id(name: str, /, *, filter: Optional[str] = None) -> Optional[str]:
     results = ids(name)
     if results == []:
         print("No results")
         return
 
-    if len(results) == 1:
-        return results[0][0]
+    filtered_results = []
+    if filter is None:
+        filtered_results = results
+    else:
+        for (idx, (id, desc)) in enumerate(results):
+            if filter in desc:
+                filtered_results.append((id, desc))
 
-    for (idx, (_id, desc)) in enumerate(results):
+    if len(filtered_results) == 0:
+        return None
+    if len(filtered_results) == 1:
+        return filtered_results[0][0]
+
+    for (idx, (_id, desc)) in enumerate(filtered_results):
         print(str(idx) + ":", desc)
     while True:
         try:
@@ -145,6 +155,7 @@ def add(
     name: Optional[str] = None,
     tag: List[str] = [],
     card: List[str] = [],
+    filter: Optional[str] = None,
 ) -> None:
     """Add an entity to a deck"""
     config = load_config(config_file, create=False)
@@ -152,7 +163,7 @@ def add(
     if entity == [] or name != None:
         if name == None:
             name = input("Enter a name: ")
-        entity = [choose_id(name)]
+        entity = [choose_id(name, filter=filter)]
 
     for e in entity:
         if e == None:

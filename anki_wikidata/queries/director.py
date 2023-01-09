@@ -21,13 +21,11 @@ SELECT DISTINCT ?name ?date ?nDirector WHERE {
 
 def query(entity: str) -> list[Card]:
     assert "{ITEM}" in QUERY
-    print(QUERY.replace("{ITEM}", entity))
     results = get_results(QUERY.replace("{ITEM}", entity))
-    if len(results) != 1:
-        year = results[0]["date"][:4]
-        for result in results:
-            if result["date"][:4] != year:
-                return []
+    if len(results) == 0:
+        return []
+    if len(results) > 1:
+        results = sorted(results, key=lambda r: int(r["date"][:4]))
     return [
         Card(
             id=f"director-{entity[3:]}",

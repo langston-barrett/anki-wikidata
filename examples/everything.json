@@ -14,6 +14,16 @@
       "name": "1860 United States presidential election"
     },
     {
+      "id": "Q103474",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "2001: A Space Odyssey"
+    },
+    {
       "id": "Q91",
       "tags": [
         "book/team-of-rivals",
@@ -61,6 +71,16 @@
       "name": "Alien"
     },
     {
+      "id": "Q4726518",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Aliens"
+    },
+    {
       "id": "Q8676",
       "tags": [
         "book/team-of-rivals",
@@ -82,6 +102,46 @@
         "director"
       ],
       "name": "American Gangster"
+    },
+    {
+      "id": "Q182692",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Apocalypse Now"
+    },
+    {
+      "id": "Q17191641",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Avatar"
+    },
+    {
+      "id": "Q471716",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Barry Lyndon"
+    },
+    {
+      "id": "Q237215",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Barton Fink"
     },
     {
       "id": "Q166262",
@@ -121,6 +181,16 @@
       "name": "Battle of Fort Sumter"
     },
     {
+      "id": "Q627975",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Bed and Board"
+    },
+    {
       "id": "Q659609",
       "tags": [
         "film"
@@ -139,6 +209,16 @@
         "director"
       ],
       "name": "Being John Malkovich"
+    },
+    {
+      "id": "Q945074",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Being There"
     },
     {
       "id": "Q52067286",
@@ -180,6 +260,26 @@
         "director"
       ],
       "name": "Boyhood"
+    },
+    {
+      "id": "Q25057",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Brazil"
+    },
+    {
+      "id": "Q381731",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Burn After Reading"
     },
     {
       "id": "Q2282336",
@@ -255,6 +355,26 @@
       "name": "Do the Right Thing"
     },
     {
+      "id": "Q105702",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Dr. Strangelove"
+    },
+    {
+      "id": "Q1265582",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Dune"
+    },
+    {
       "id": "Q388652",
       "tags": [
         "film"
@@ -312,6 +432,26 @@
       "name": "Edwin M. Stanton"
     },
     {
+      "id": "Q11618",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Eraserhead"
+    },
+    {
+      "id": "Q5837550",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Escape from New York"
+    },
+    {
       "id": "Q8007",
       "tags": [
         "book/lbj",
@@ -325,6 +465,36 @@
         "governor-of"
       ],
       "name": "FDR"
+    },
+    {
+      "id": "Q34109",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Fargo"
+    },
+    {
+      "id": "Q934036",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Fiddler on the Roof"
+    },
+    {
+      "id": "Q18649479",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Full Metal Jacket"
     },
     {
       "id": "Q5554063",
@@ -347,6 +517,26 @@
       "name": "Goodfellas"
     },
     {
+      "id": "Q945842",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Halloween"
+    },
+    {
+      "id": "Q368577",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Harold and Maude"
+    },
+    {
       "id": "Q788822",
       "tags": [
         "film"
@@ -367,6 +557,16 @@
         "senator-of"
       ],
       "name": "Hubert Humphrey"
+    },
+    {
+      "id": "Q622240",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "In the Heat of the Night"
     },
     {
       "id": "Q54888301",
@@ -443,6 +643,16 @@
         "happened-year"
       ],
       "name": "John Brown's raid on Harpers Ferry"
+    },
+    {
+      "id": "Q512350",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Jules and Jim"
     },
     {
       "id": "Q16568143",
@@ -591,6 +801,16 @@
       "name": "Missouri Compromise"
     },
     {
+      "id": "Q25043",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Monty Python and the Holy Grail"
+    },
+    {
       "id": "Q217112",
       "tags": [
         "film"
@@ -601,6 +821,16 @@
       "name": "Moonrise Kingdom"
     },
     {
+      "id": "Q272608",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Mulholland Drive"
+    },
+    {
       "id": "Q39571",
       "tags": [
         "film"
@@ -609,6 +839,16 @@
         "director"
       ],
       "name": "My Neighbor Totoro"
+    },
+    {
+      "id": "Q183081",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "No Country for Old Men"
     },
     {
       "id": "Q115257443",
@@ -631,6 +871,26 @@
       "name": "Nope"
     },
     {
+      "id": "Q223139",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "North by Northwest"
+    },
+    {
+      "id": "Q501874",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "O Brother, Where Art Thou?"
+    },
+    {
       "id": "Q23932553",
       "tags": [
         "film"
@@ -651,6 +911,16 @@
       "name": "Pacific Rim"
     },
     {
+      "id": "Q65807959",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Paprika"
+    },
+    {
       "id": "Q111567208",
       "tags": [
         "film"
@@ -659,6 +929,16 @@
         "director"
       ],
       "name": "Parasite"
+    },
+    {
+      "id": "Q22981719",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Perfect Blue"
     },
     {
       "id": "Q28840386",
@@ -691,6 +971,16 @@
       "name": "Prometheus"
     },
     {
+      "id": "Q979196",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Psycho"
+    },
+    {
       "id": "Q104123",
       "tags": [
         "film"
@@ -716,6 +1006,36 @@
         "senator-of"
       ],
       "name": "RFK"
+    },
+    {
+      "id": "Q565231",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Ran"
+    },
+    {
+      "id": "Q135465",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Rashomon"
+    },
+    {
+      "id": "Q34414",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Rear Window"
     },
     {
       "id": "Q9916",
@@ -794,6 +1114,26 @@
       "name": "School of Rock"
     },
     {
+      "id": "Q189540",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Seven Samurai"
+    },
+    {
+      "id": "Q476439",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Shoot the Piano Player"
+    },
+    {
       "id": "Q492908",
       "tags": [
         "film"
@@ -856,6 +1196,56 @@
       "name": "Taxi Driver"
     },
     {
+      "id": "Q106541549",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The 39 Steps"
+    },
+    {
+      "id": "Q162331",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The 400 Blows"
+    },
+    {
+      "id": "Q337078",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Big Lebowski"
+    },
+    {
+      "id": "Q110043",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Birds"
+    },
+    {
+      "id": "Q28810423",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Conversation"
+    },
+    {
       "id": "Q658944",
       "tags": [
         "film"
@@ -896,6 +1286,16 @@
       "name": "The French Dispatch"
     },
     {
+      "id": "Q60875410",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Godfather"
+    },
+    {
       "id": "Q96408861",
       "tags": [
         "film"
@@ -914,6 +1314,26 @@
         "director"
       ],
       "name": "The Host"
+    },
+    {
+      "id": "Q313998",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Hudsucker Proxy"
+    },
+    {
+      "id": "Q20756114",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Last Detail"
     },
     {
       "id": "Q18547944",
@@ -976,6 +1396,26 @@
       "name": "The Shining"
     },
     {
+      "id": "Q162255",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Terminator"
+    },
+    {
+      "id": "Q3821925",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "The Thing"
+    },
+    {
       "id": "Q888131",
       "tags": [
         "film"
@@ -1026,6 +1466,26 @@
       "name": "Thirteenth Amendment to the United States Constitution"
     },
     {
+      "id": "Q111598212",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Titanic"
+    },
+    {
+      "id": "Q917278",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Tokyo Godfathers"
+    },
+    {
       "id": "Q7901638",
       "tags": [
         "film"
@@ -1034,6 +1494,16 @@
         "director"
       ],
       "name": "Us"
+    },
+    {
+      "id": "Q94987616",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Vertigo"
     },
     {
       "id": "Q676664",
@@ -1063,6 +1533,16 @@
         "spouse"
       ],
       "name": "William H. Seward"
+    },
+    {
+      "id": "Q20475",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Yojimbo"
     }
   ]
 }

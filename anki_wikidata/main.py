@@ -81,7 +81,7 @@ def dump_config(
     # https://stackoverflow.com/questions/18405537
     d = config.dict()
     if normalize:
-        config.entities = sorted(config.entities, key=lambda e: e.name)
+        config.entities = sorted(config.entities, key=lambda e: e.name or "")
         d = config.dict()
 
     with open(config_file, mode="w") as f:
@@ -117,7 +117,7 @@ def choose_id(name: str, /, *, filter: Optional[str] = None) -> Optional[str]:
     results = ids(name)
     if results == []:
         print("No results")
-        return
+        return None
 
     filtered_results = []
     if filter is None:
@@ -163,11 +163,12 @@ def add(
     if entity == [] or name != None:
         if name == None:
             name = input("Enter a name: ")
-        entity = [choose_id(name, filter=filter)]
+        entity_id = choose_id(name, filter=filter)
+        if entity_id is None:
+            return
+        entity = [entity_id]
 
     for e in entity:
-        if e == None:
-            return
         if not e.startswith("Q"):
             print(
                 f"'{e}' doesn't start with Q. Are you sure that's a Wikidata entity ID?"

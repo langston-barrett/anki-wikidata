@@ -12,6 +12,14 @@ class Entity(BaseModel):
     name: Optional[str] = None
 
 
+# TODO
+class Relation(BaseModel):
+    relation: str
+    entities: List[str]
+    tags: List[str]
+
+
 class Config(BaseModel):
     id: int
     entities: List[Entity]
+    relations: List[Relation]

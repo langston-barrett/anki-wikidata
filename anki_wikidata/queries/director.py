@@ -29,7 +29,7 @@ def query(entity: str) -> list[Card]:
     return [
         Card(
             id=f"director-{entity[3:]}",
-            front=f"What was the name of the director of the {results[0]['date'][:4]} film {results[0]['name']}?",
+            front=f"Who directed the film {results[0]['name']} ({results[0]['date'][:4]})?",
             back=results[0]["nDirector"],
         )
     ]

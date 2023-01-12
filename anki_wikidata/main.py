@@ -35,6 +35,7 @@ from anki_wikidata.queries import (
     place_of_death,
     mother,
     political_party,
+    president_during,
     publication_date,
     senator,
     spouse,
@@ -68,6 +69,7 @@ QUERIES = {
     "place-of-death": place_of_death.query,
     "mother": mother.query,
     "political-party": political_party.query,
+    "president-during": president_during.query,
     "publication-date": publication_date.query,
     "senator-of": senator.query,
     "spouse": spouse.query,
@@ -183,7 +185,9 @@ def add(
 
 @app.command()
 def build(
-    config_file: Path, output: Path = Path("out.apkg"), name: str = "default"
+    config_file: Path,
+    output: Path = Path("out.apkg"),
+    name: str = "default",
 ) -> None:
     """Build an apkg file from a deck (yml) file"""
     config = load_config(config_file)
@@ -200,6 +204,8 @@ def build(
                 c.tags = entity.tags
                 print(c.front, c.back)
                 cards.append(c)
+    for r in config.relations:
+        print(r)
     write_deck(config.id, output, name, cards)
 
 

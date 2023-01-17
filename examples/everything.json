@@ -228,7 +228,8 @@
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "BlacKkKlansman"
     },
@@ -332,7 +333,8 @@
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "Da 5 Bloods"
     },
@@ -367,7 +369,7 @@
       "name": "Dr. Strangelove"
     },
     {
-      "id": "Q1265582",
+      "id": "Q114819",
       "tags": [
         "film"
       ],
@@ -499,12 +501,13 @@
       "name": "Full Metal Jacket"
     },
     {
-      "id": "Q5554063",
+      "id": "Q25136235",
       "tags": [
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "Get Out"
     },
@@ -584,7 +587,7 @@
       "name": "In the Heat of the Night"
     },
     {
-      "id": "Q54888301",
+      "id": "Q25188",
       "tags": [
         "film"
       ],
@@ -594,14 +597,14 @@
       "name": "Inception"
     },
     {
-      "id": "Q98018448",
+      "id": "Q174284",
       "tags": [
         "film"
       ],
       "cards": [
         "director"
       ],
-      "name": "Indiana Jones"
+      "name": "Raiders of the Lost Ark"
     },
     {
       "id": "Q13417189",
@@ -747,7 +750,8 @@
     {
       "id": "Q102036245",
       "tags": [
-        "film"
+        "director",
+        "first-published"
       ],
       "cards": [
         "director"
@@ -908,17 +912,8 @@
         "film"
       ],
       "cards": [
-        "director"
-      ],
-      "name": "Nope"
-    },
-    {
-      "id": "Q107176162",
-      "tags": [
-        "film"
-      ],
-      "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "Nope"
     },
@@ -975,7 +970,8 @@
     {
       "id": "Q111567208",
       "tags": [
-        "film"
+        "director",
+        "first-published"
       ],
       "cards": [
         "director"
@@ -1212,7 +1208,8 @@
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "Sorry to Bother You"
     },
@@ -1344,7 +1341,8 @@
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "The French Dispatch"
     },
@@ -1554,7 +1552,8 @@
         "film"
       ],
       "cards": [
-        "director"
+        "director",
+        "first-published"
       ],
       "name": "Us"
     },

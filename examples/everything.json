@@ -2,18 +2,6 @@
   "id": 1607392442,
   "entities": [
     {
-      "id": "Q191721",
-      "tags": [
-        "history/us"
-      ],
-      "cards": [
-        "part-of-war",
-        "happened-year",
-        "president-during"
-      ],
-      "name": "Bay of Pigs Invasion"
-    },
-    {
       "id": "Q698842",
       "tags": [
         "book/team-of-rivals",
@@ -73,6 +61,14 @@
       "name": "After Hours"
     },
     {
+      "id": "Q8409",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Alexander the Great"
+    },
+    {
       "id": "Q103569",
       "tags": [
         "film"
@@ -124,6 +120,22 @@
         "director"
       ],
       "name": "Apocalypse Now"
+    },
+    {
+      "id": "Q868",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Aristotle"
+    },
+    {
+      "id": "Q8018",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Augustine of Hippo"
     },
     {
       "id": "Q17191641",
@@ -193,6 +205,18 @@
         "president-during"
       ],
       "name": "Battle of Fort Sumter"
+    },
+    {
+      "id": "Q191721",
+      "tags": [
+        "history/us"
+      ],
+      "cards": [
+        "part-of-war",
+        "happened-year",
+        "president-during"
+      ],
+      "name": "Bay of Pigs Invasion"
     },
     {
       "id": "Q627975",
@@ -677,6 +701,14 @@
       "name": "Jaws"
     },
     {
+      "id": "Q44248",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Jerome"
+    },
+    {
       "id": "Q6223430",
       "tags": [
         "history/us",
@@ -1012,6 +1044,14 @@
       "name": "Phantom Thread"
     },
     {
+      "id": "Q859",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Plato"
+    },
+    {
       "id": "Q186572",
       "tags": [
         "film"
@@ -1213,6 +1253,14 @@
         "director"
       ],
       "name": "Snowpiercer"
+    },
+    {
+      "id": "Q913",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Socrates"
     },
     {
       "id": "Q32067450",

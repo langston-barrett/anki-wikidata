@@ -16,6 +16,7 @@ from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
     begin_year,
+    birth_century,
     birth_country,
     birth_state,
     borough,
@@ -51,6 +52,7 @@ app = typer.Typer()
 # - Sister
 QUERIES = {
     "begin-year": begin_year.query,
+    "birth-century": birth_century.query,
     "birth-country": birth_country.query,
     "birth-state": birth_state.query,
     "borough": borough.query,
@@ -144,12 +146,12 @@ def choose_id(name: str, /, *, filter: Optional[str] = None) -> Optional[str]:
         except ValueError:
             print("Not a number!")
             continue
-        if user_idx >= len(results):
+        if user_idx >= len(filtered_results):
             print("Invalid choice!")
         else:
             break
 
-    return results[idx][0]
+    return filtered_results[user_idx][0]
 
 
 @app.command()

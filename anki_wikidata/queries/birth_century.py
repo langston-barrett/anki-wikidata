@@ -30,7 +30,7 @@ def query(entity: str) -> list[Card]:
         year -= abs(year) % 100
     return [
         Card(
-            id=f"birth-state-{entity[3:]}",
+            id=f"birth-century-{entity[3:]}",
             front=f"In what century was {results[0]['name']} born?",
             back=f"The {abs(year)}s {'B.C.E' if year < 0 else 'C.E.'}",
         )

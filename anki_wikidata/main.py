@@ -15,6 +15,7 @@ from anki_wikidata.card import Card
 from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
+    author,
     begin_year,
     birth_century,
     birth_country,
@@ -51,6 +52,7 @@ app = typer.Typer()
 # - City of death
 # - Sister
 QUERIES = {
+    "author": author.query,
     "begin-year": begin_year.query,
     "birth-century": birth_century.query,
     "birth-country": birth_country.query,

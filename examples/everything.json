@@ -311,6 +311,17 @@
       "name": "Brazil"
     },
     {
+      "id": "Q37297853",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director",
+        "first-published"
+      ],
+      "name": "Broker"
+    },
+    {
       "id": "Q381731",
       "tags": [
         "film"
@@ -1243,6 +1254,16 @@
         "director"
       ],
       "name": "Shoot the Piano Player"
+    },
+    {
+      "id": "Q48765577",
+      "tags": [
+        "film"
+      ],
+      "cards": [
+        "director"
+      ],
+      "name": "Shoplifters"
     },
     {
       "id": "Q492908",

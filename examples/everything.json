@@ -120,6 +120,14 @@
       "name": "American Gangster"
     },
     {
+      "id": "Q487364",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Anathem"
+    },
+    {
       "id": "Q182692",
       "tags": [
         "film"
@@ -128,6 +136,14 @@
         "director"
       ],
       "name": "Apocalypse Now"
+    },
+    {
+      "id": "Q273668",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Apology"
     },
     {
       "id": "Q868",
@@ -174,6 +190,14 @@
         "director"
       ],
       "name": "Barton Fink"
+    },
+    {
+      "id": "Q17362967",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Baruch Spinoza"
     },
     {
       "id": "Q166262",
@@ -265,6 +289,14 @@
         "director"
       ],
       "name": "Being There"
+    },
+    {
+      "id": "Q33760",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Bertrand Russell"
     },
     {
       "id": "Q43370948",
@@ -556,6 +588,14 @@
       "name": "Fiddler on the Roof"
     },
     {
+      "id": "Q34787",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Friedrich Engels"
+    },
+    {
       "id": "Q18649479",
       "tags": [
         "film"
@@ -572,6 +612,14 @@
         "begin-year"
       ],
       "name": "George Floyd protests"
+    },
+    {
+      "id": "Q9235",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Georg Wilhelm Friedrich Hegel"
     },
     {
       "id": "Q25136235",
@@ -593,6 +641,22 @@
         "director"
       ],
       "name": "Goodfellas"
+    },
+    {
+      "id": "Q9047",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Gottfried Wilhelm Leibniz"
+    },
+    {
+      "id": "Q60028",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Gottlob Frege"
     },
     {
       "id": "Q37643",
@@ -659,6 +723,14 @@
         "president-during"
       ],
       "name": "Hurricane Katrina"
+    },
+    {
+      "id": "Q9312",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Immanuel Kant"
     },
     {
       "id": "Q622240",
@@ -749,6 +821,14 @@
       "name": "Jaws"
     },
     {
+      "id": "Q6527",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Jean-Jacques Rousseau"
+    },
+    {
       "id": "Q44248",
       "tags": [],
       "cards": [
@@ -767,6 +847,14 @@
         "president-during"
       ],
       "name": "John Brown's raid on Harpers Ferry"
+    },
+    {
+      "id": "Q9353",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "John Locke"
     },
     {
       "id": "Q512350",
@@ -798,6 +886,14 @@
         "publication-date"
       ],
       "name": "Kansas-Nebraska Act"
+    },
+    {
+      "id": "Q9061",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Karl Marx"
     },
     {
       "id": "Q8663",
@@ -839,6 +935,14 @@
       "name": "Lend-Lease"
     },
     {
+      "id": "Q193034",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Leviathan"
+    },
+    {
       "id": "Q102036245",
       "tags": [
         "director",
@@ -870,6 +974,14 @@
       "name": "Lincoln"
     },
     {
+      "id": "Q9391",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Ludwig Wittgenstein"
+    },
+    {
       "id": "Q74882245",
       "tags": [
         "film"
@@ -889,6 +1001,14 @@
         "president-during"
       ],
       "name": "March on Washington for Jobs and Freedom"
+    },
+    {
+      "id": "Q1430",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Marcus Aurelius"
     },
     {
       "id": "Q8027",
@@ -997,6 +1117,14 @@
         "director"
       ],
       "name": "My Neighbor Totoro"
+    },
+    {
+      "id": "Q474537",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Nicomachean Ethics"
     },
     {
       "id": "Q183081",
@@ -1168,6 +1296,14 @@
       "name": "Pulp Fiction"
     },
     {
+      "id": "Q10261",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Pythagoras"
+    },
+    {
       "id": "Q25310",
       "tags": [
         "book/lbj",
@@ -1223,6 +1359,14 @@
         "director"
       ],
       "name": "Rear Window"
+    },
+    {
+      "id": "Q9191",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Ren\u00e9 Descartes"
     },
     {
       "id": "Q9916",
@@ -1329,6 +1473,14 @@
         "director"
       ],
       "name": "Shoplifters"
+    },
+    {
+      "id": "Q768389",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Snow Crash"
     },
     {
       "id": "Q492908",
@@ -1489,6 +1641,14 @@
         "director"
       ],
       "name": "The Departed"
+    },
+    {
+      "id": "Q25217632",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "The Fifth Season"
     },
     {
       "id": "Q59551547",
@@ -1682,6 +1842,14 @@
       "name": "Thirteenth Amendment to the United States Constitution"
     },
     {
+      "id": "Q37621",
+      "tags": [],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Thomas Hobbes"
+    },
+    {
       "id": "Q111598212",
       "tags": [
         "film"
@@ -1721,6 +1889,14 @@
         "director"
       ],
       "name": "Vertigo"
+    },
+    {
+      "id": "Q131175",
+      "tags": [],
+      "cards": [
+        "author"
+      ],
+      "name": "Vulgate"
     },
     {
       "id": "Q676664",

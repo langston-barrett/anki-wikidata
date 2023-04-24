@@ -340,6 +340,16 @@
       "name": "Burn After Reading"
     },
     {
+      "id": "Q81068910",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "begin-year"
+      ],
+      "name": "COVID-19 pandemic"
+    },
+    {
       "id": "Q2282336",
       "tags": [
         "film"
@@ -556,6 +566,14 @@
       "name": "Full Metal Jacket"
     },
     {
+      "id": "Q95965839",
+      "tags": [],
+      "cards": [
+        "begin-year"
+      ],
+      "name": "George Floyd protests"
+    },
+    {
       "id": "Q25136235",
       "tags": [
         "film"
@@ -630,6 +648,17 @@
         "senator-of"
       ],
       "name": "Hubert Humphrey"
+    },
+    {
+      "id": "Q16422",
+      "tags": [
+        "history/us"
+      ],
+      "cards": [
+        "happened-year",
+        "president-during"
+      ],
+      "name": "Hurricane Katrina"
     },
     {
       "id": "Q622240",
@@ -801,6 +830,15 @@
       "name": "LBJ"
     },
     {
+      "id": "Q207637",
+      "tags": [],
+      "cards": [
+        "begin-year",
+        "president-during"
+      ],
+      "name": "Lend-Lease"
+    },
+    {
       "id": "Q102036245",
       "tags": [
         "director",
@@ -840,6 +878,17 @@
         "director"
       ],
       "name": "Malcolm X"
+    },
+    {
+      "id": "Q1128871",
+      "tags": [
+        "history/us"
+      ],
+      "cards": [
+        "happened-year",
+        "president-during"
+      ],
+      "name": "March on Washington for Jobs and Freedom"
     },
     {
       "id": "Q8027",
@@ -969,6 +1018,14 @@
         "first-published"
       ],
       "name": "Nope"
+    },
+    {
+      "id": "Q16470",
+      "tags": [],
+      "cards": [
+        "begin-year"
+      ],
+      "name": "Normandy landings"
     },
     {
       "id": "Q223139",
@@ -1385,6 +1442,15 @@
       "name": "The Birds"
     },
     {
+      "id": "Q6900329",
+      "tags": [],
+      "cards": [
+        "begin-year",
+        "president-during"
+      ],
+      "name": "The Blitz"
+    },
+    {
       "id": "Q28810423",
       "tags": [
         "film"
@@ -1694,6 +1760,17 @@
         "director"
       ],
       "name": "Yojimbo"
+    },
+    {
+      "id": "Q15920546",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "happened-year",
+        "president-during"
+      ],
+      "name": "annexation of Crimea by the Russian Federation"
     },
     {
       "id": "Q703203",

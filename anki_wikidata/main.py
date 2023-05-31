@@ -16,6 +16,7 @@ from anki_wikidata.conf import Config, Entity
 from anki_wikidata.gen import write_deck
 from anki_wikidata.queries import (
     author,
+    begin_century,
     begin_year,
     birth_century,
     birth_country,
@@ -53,6 +54,7 @@ app = typer.Typer()
 # - Sister
 QUERIES = {
     "author": author.query,
+    "begin-century": begin_century.query,
     "begin-year": begin_year.query,
     "birth-century": birth_century.query,
     "birth-country": birth_country.query,

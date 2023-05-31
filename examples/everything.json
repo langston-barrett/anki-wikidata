@@ -2,6 +2,16 @@
   "id": 1607392442,
   "entities": [
     {
+      "id": "Q2487",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "begin-century"
+      ],
+      "name": "Thirty Years' War"
+    },
+    {
       "id": "Q698842",
       "tags": [
         "book/team-of-rivals",
@@ -308,6 +318,16 @@
         "first-published"
       ],
       "name": "BlacKkKlansman"
+    },
+    {
+      "id": "Q42005",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "begin-century"
+      ],
+      "name": "Black Death"
     },
     {
       "id": "Q184843",
@@ -1011,6 +1031,16 @@
       "name": "Marcus Aurelius"
     },
     {
+      "id": "Q9554",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "birth-century"
+      ],
+      "name": "Martin Luther"
+    },
+    {
       "id": "Q8027",
       "tags": [
         "book/lbj",
@@ -1125,6 +1155,16 @@
         "author"
       ],
       "name": "Nicomachean Ethics"
+    },
+    {
+      "id": "Q157506",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "author"
+      ],
+      "name": "Ninety-five Theses"
     },
     {
       "id": "Q183081",
@@ -1367,6 +1407,16 @@
         "birth-century"
       ],
       "name": "Ren\u00e9 Descartes"
+    },
+    {
+      "id": "Q12562",
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        "begin-century"
+      ],
+      "name": "Reformation"
     },
     {
       "id": "Q9916",
